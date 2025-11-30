@@ -43,9 +43,9 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-6">
-              <a href="tel:+15551234567" className="flex items-center gap-2 text-green-700 font-bold text-xl hover:text-green-800">
+              <a href="tel:+19789421200" className="flex items-center gap-2 text-green-700 font-bold text-xl hover:text-green-800">
                 <span className="text-2xl">📞</span>
-                (555) 123-4567
+                (978) 942-1200
               </a>
               <a href="#quote" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-lg">
                 Get Free Quote
@@ -390,7 +390,7 @@ export default function Home() {
                     type="tel"
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-800"
-                    placeholder="(555) 123-4567"
+                    placeholder="(978) 942-1200"
                     value={formData.phone}
                     onChange={(e) => setFormData({...formData, phone: e.target.value})}
                   />
@@ -519,7 +519,7 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-4">Contact Us</h3>
               <div className="space-y-3 text-green-200">
                 <p className="flex items-center gap-2">
-                  <span>📞</span> (555) 123-4567
+                  <span>📞</span> (978) 942-1200
                 </p>
                 <p className="flex items-center gap-2">
                   <span>📧</span> info@univershole.com
